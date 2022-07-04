@@ -1,0 +1,61 @@
+stmt.execute("insert into EMP values"
+			+ "(101,'Yasaswi','22','30000','GET','2000-01-05','Chirala','6305586313','707662697352','GIQPD0541H'),"
+			+ "(102,'Pavan','22','30000','GET',2001-05-27','Nellore','8967543298','567897653425','GIQPA9541H'),"
+			+ "(103,'Ramesh','22','30000','GET',2001-06-21','Bapatla','8967843298','987697653425','AIPDA9541H'),"
+			+ "(104,'Padma','22','30000','GET',2001-09-19','Vijayawada','9867453298','907897658967','TGQPA9541H'),"
+			+ "(105,'Rakesh','22','30000','GET',2001-05-27','Chittoor','7869754657','867897653425','UGDPA9541H'),"
+			+ "(106,'Chaitra','22','30000','GET',2001-05-27','Ponnur','7069874532','235697653425','UGDPA9541H'),"
+			+ "(107,'Swathi','22','30000','GET',2001-05-27','Kadapa','8967543298','785697653425','UGDPA9541H'),"
+			+ "(108,'Pavithra','22','30000','GET',2001-05-27','Nellore','9835673456','234597653425','UGDPA9541H'),"
+			+ "(102,'Bhavya','22','30000','GET',2001-05-27','Chirala','6789543265','457897653425','UGDPA9541H'),"
+			+ "(102,'Srinu','22','30000','GET',2001-05-27','Kalahasthi','9834526787','678897653425','OJIPA9541H'),"");
+	
+
+
+
+class A
+{
+	Scanner sc=new Scanner(System.in);
+	
+	void input()
+	{
+		
+	Scanner sc=new Scanner(System.in);
+	System.out.print("Enter Employee Id :");
+	   id=sc.nextInt();
+	System.out.print("Enter Employee Name :");  
+	  name=sc.next();
+	System.out.print("Enter Employee Age :");
+	  age=sc.nextInt();
+	System.out.print("Enter Employee Salary :");
+	  sal=sc.nextInt();
+	System.out.print("Enter Employee Designation :");
+	  desig=sc.next();
+	System.out.print("Enter Employee Date of Birth(YYYY/MM/DD) :");
+	  dob=sc.next();
+	System.out.print("Enter Employee Place :");
+	  place=sc.next();
+	System.out.print("Enter Employee Phone Number :");
+	  pnum=sc.nextLong();
+	System.out.print("Enter Employee Aadhaar Number :");
+	  aadhaar=sc.nextLong();
+	System.out.print("Enter Employee PAN Number :");
+	  pan=sc.next();
+	}
+	void display()
+	{
+		System.out.println("Employee Details:");
+	System.out.println(" Id: "+id);
+	System.out.println("Name : ");
+	System.out.println("Age :");
+	System.out.println("Salary :");
+	System.out.println("Designation :");
+	System.out.println("Date of Birth(YYYY/MM/DD) :");
+	System.out.println("Place :");
+	System.out.println("Phone Number :");
+	System.out.println("Aadhaar Number :");
+	System.out.println("PAN Number :");
+	}
+	
+}
+		
